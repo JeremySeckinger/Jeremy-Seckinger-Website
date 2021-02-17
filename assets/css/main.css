@@ -2457,6 +2457,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			/* Added media query for mobile headshot sizing */
+			@media screen and (max-width: 736px) {
+				.image.left, .image.right {
+					max-width: 45%;
+				}
+
+				.image.right {
+					float: right;
+					padding: 0 0 .2em .2em;
+					top: 0.25em;
+				}
+			}
+
 /* List */
 
 	ol {
@@ -3193,7 +3206,7 @@ input, select, textarea {
 			}
 
 				#banner .logo {
-					margin: 0 0 1em 0;
+					margin: 0 0 .5em 0;
 				}
 
 					#banner .logo .icon {
@@ -3206,6 +3219,12 @@ input, select, textarea {
 
 				#banner p {
 					font-size: 0.8em;
+				}
+
+				/* Added class to pad title on mobile */
+
+				.mobilePad {
+					padding-bottom: 1.5em;
 				}
 
 		}
