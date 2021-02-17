@@ -3024,6 +3024,13 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				/* Added video feature to article */
+
+				.features article .image video {
+					border-radius: 5px 5px 0 0;
+					width: 100%;
+				}
+
 		@media screen and (max-width: 980px) {
 
 			.features article {
@@ -3088,7 +3095,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 2em 0 1.3em 0;
+			margin: 3em 0 1.3em 0;
 		}
 
 			#banner .logo .icon {
@@ -3494,6 +3501,7 @@ input, select, textarea {
 				width: 22em;
 				overflow: hidden;
 				-ms-flex: 1;
+				flex: 1;
 			}
 
 				.wrapper.spotlight .image img {
@@ -3504,6 +3512,7 @@ input, select, textarea {
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
+				flex: 2;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
@@ -3847,10 +3856,6 @@ input, select, textarea {
 	}
 
 	/* Additional Styles */
-
-	.aboutSpacing {
-		padding-top: .25em
-	}
 
 	.portfolioSpacing {
 		margin-top: 5em;
