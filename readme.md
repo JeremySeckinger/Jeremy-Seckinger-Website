@@ -2,7 +2,7 @@
 
 ## Description
 
-Current portolio site. My aim here was create a straightforward portfolio site with no added bells and whistles--just a clean modern site highlighting who I am and what I do. 
+Current portfolio site. My aim here was create a straightforward portfolio site with no added bells and whistles--just a clean modern site highlighting who I am and what I do. 
 
 
 ## Screenshot
