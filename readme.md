@@ -7,4 +7,4 @@ Current portfolio site. My aim here was create a straightforward portfolio site 
 
 ## Screenshot
 
-<img src="images/Jeremy-Seckinger-Portfolio-GIPHY.gif" alt="Jeremy Seckinger Portfolio Site Gif">
+<img src="https://media.giphy.com/media/o0NEwSpttMSWg3OT1a/giphy.gif" alt="Jeremy Seckinger Portfolio Site Gif">
