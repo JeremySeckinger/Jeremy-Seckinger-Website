@@ -2408,6 +2408,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		/* Added width from lighthouse audit */
+		width: 100%; 
 	}
 
 		.image img {
