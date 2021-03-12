@@ -73,7 +73,7 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Reach out for inquiries, let's work together!</p>
-							<form name="contact" method="POST" data-netlify="true">
+							<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -86,6 +86,9 @@
 									<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<div class="field">
+									<div data-netlify-recaptcha="true"></div>
 									</div>
 								</div>
 								<ul class="actions">
